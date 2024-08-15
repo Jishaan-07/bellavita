@@ -1,0 +1,143 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+
+.navbar-nav a{
+    color: goldenrod;
+    font-size: large;
+    font-family: "Cinzel", serif;
+    margin-left: 20px;
+}
+.navbar-nav a:hover{
+    color: gold;
+    text-decoration: overline;
+
+}
+
+
+#lname{
+    color: rgb(255, 225, 52);
+}
+
+ 
+ #homeheading{
+padding-top: 200px;
+font-family: "Cinzel", serif;
+color: goldenrod;
+font-size: xxx-large;
+ }
+
+ .homecontent{
+   margin-left: 100px;
+}
+.homeimage{
+    width: 45%;
+    height: 75%;
+    position: absolute;
+    right: 30px;
+    bottom: 0px;
+}
+.group1{
+    position: absolute;
+    height: 100%;
+    bottom: 0px;
+    left: 50px;
+    transform: translateX(-50%);       
+     transition: bottom 2s,left 1s;
+}
+.homeimage:hover #spray{
+    left: 40%;
+}
+.homeimage:hover #splash{
+ bottom: 70px;
+}
+#offhead{
+    margin-top: 300px;
+    text-align: center;
+    font-family: "Cinzel", serif;
+color: goldenrod;
+}
+#offhead2{
+    margin-top: 150px;
+    text-align: center;
+    font-family: "Cinzel", serif;
+color: goldenrod;
+}
+#offhead3{
+        text-align: center;
+    font-family: "Cinzel", serif;
+color: goldenrod;
+}
+#footer{
+    margin-top: 100px;
+}
+#lafrench{
+    text-align: center;
+    font-family: "Cinzel", serif;
+    color: goldenrod;
+}
+ .card{
+    display: inline;
+ }
+ #youtube{
+    margin-top: 100px;
+    text-align: center;
+ }
+ .logo{
+  text-align: left;
+ }
+ #slogan{
+    font-family: "Cinzel", serif;
+    color: goldenrod;
+    font-size: medium;  
+    text-align: left;
+ }
+ #slogan2{
+    font-family: "Cinzel", serif;
+    color: goldenrod;
+    font-size: medium;  
+    text-align: right;
+  margin-top: -25px;
+ }
+ #slogan01{
+    font-family: "Cinzel", serif;
+    color: goldenrod;
+    margin-top: 50px;
+ }
+ #iconsfooter{
+    font-size: xx-large;
+ }
+ #feed{
+   background-color: goldenrod;
+   color: white;
+   margin-top: 50px;
+ }
+ @media (max-width:992px) {
+   
+.homecontent{
+    display: block;
+}
+#homeheading{
+text-align: center;
+}
+.homeimage{
+    display: none;
+}
+
+.homeafterspary{
+  margin-top: 200px;
+ 
+}
+#subheading{
+    font-size: x-large;
+padding-right: 290px;
+}
+#slogan2{
+  
+    display: inline-block;
+}
+}
